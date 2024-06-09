@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title || "Admin Puskesmas Page" }}</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+</head>
+
+<body>
+    <header>
+        @include('partials/header_admin')
+    </header>
+
+    <section>
+        @include('partials/sidebar_admin')
+    </section>
+
+    <main>
+        {{{ await $slots.main() }}}
+    </main>
+
+    <footer>
+        @include('partials/footer_admin')
+    </footer>
+</body>
+
+</html>
