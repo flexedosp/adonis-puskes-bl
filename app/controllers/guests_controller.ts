@@ -7,18 +7,27 @@ export default class GuestsController {
     return ctx.view.render(defaultUrl + 'home')
   }
 
-  async profil(ctx: HttpContext) {
-    return ctx.view.render(defaultUrl + 'profil')
+  async tentangKami(ctx: HttpContext) {
+    return ctx.view.render(defaultUrl + 'tentangKami')
   }
-  async blogs(ctx: HttpContext) {
-    return ctx.view.render(defaultUrl + 'blogs')
+
+  async berita(ctx: HttpContext) {
+    return ctx.view.render(defaultUrl + 'berita')
+  }
+
+  async layanan(ctx: HttpContext) {
+    return ctx.view.render(defaultUrl + 'layanan')
+  }
+
+  async modul(ctx: HttpContext) {
+    return ctx.view.render(defaultUrl + 'modul')
   }
 
   async contact(ctx: HttpContext) {
     return ctx.view.render(defaultUrl + 'contact')
   }
 
-  async whoisdev(ctx: HttpContext) {
-    return ctx.view.render(defaultUrl + 'whoisdev')
+  async thedev(ctx: HttpContext) {
+    return ctx.view.render(defaultUrl + 'thedev')
   }
 }

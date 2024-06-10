@@ -29,13 +29,21 @@
                     <a href={{ route('puskes.home') }}
                         class="block py-2 px-3  bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500">Beranda</a>
                 </li>
-                <li class="py-2 px-2 {{ (titleNav == 'profil' ) ? 'bg-cyan-200' : ' ' }} text-gray-900">
-                    <a href={{ route('puskes.profil') }}
-                        class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Profil</a>
+                <li class="py-2 px-2 {{ (titleNav == 'tentangkami' ) ? 'bg-cyan-200' : ' ' }} text-gray-900">
+                    <a href={{ route('puskes.tentangkami') }}
+                        class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tentang Kami</a>
                 </li>
-                <li class="py-2 px-2 {{ (titleNav == 'blog' ) ? 'bg-cyan-200' : ' ' }} text-gray-900">
-                    <a href={{ route('puskes.blog') }}
-                        class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+                <li class="py-2 px-2 {{ (titleNav == 'layanan' ) ? 'bg-cyan-200' : ' ' }} text-gray-900">
+                    <a href={{ route('puskes.layanan') }}
+                        class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Info Layanan</a>
+                </li>
+                <li class="py-2 px-2 {{ (titleNav == 'berita' ) ? 'bg-cyan-200' : ' ' }} text-gray-900">
+                    <a href={{ route('puskes.berita') }}
+                        class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Berita</a>
+                </li>
+                <li class="py-2 px-2 {{ (titleNav == 'modul' ) ? 'bg-cyan-200' : ' ' }} text-gray-900">
+                    <a href={{ route('puskes.modul') }}
+                        class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Modul</a>
                 </li>
                 <li class="py-2 px-2 {{ (titleNav == 'contact' ) ? 'bg-cyan-200' : ' ' }} text-gray-900">
                     <a href={{ route('puskes.contact') }}
