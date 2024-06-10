@@ -17,4 +17,8 @@ export default class GuestsController {
   async contact(ctx: HttpContext) {
     return ctx.view.render(defaultUrl + 'contact')
   }
+
+  async whoisdev(ctx: HttpContext) {
+    return ctx.view.render(defaultUrl + 'whoisdev')
+  }
 }
